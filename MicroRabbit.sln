@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MicroServices", "MicroServices", "{85D00E42-E305-4AA6-BD24-F932139CFD03}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{CC05209B-0E2F-4B20-89DF-208B633628EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.Bus", "Infra.Bus", "{C8263E08-C92E-48C0-8102-C8113F6851C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.IoC", "Infra.IoC", "{839F8D5D-7DAD-4539-82A1-60DCF43D7DB3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{0B0BCC96-D359-43C6-ACBF-D5E2F6810C6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.Domain.Core", "..\RabbitMQ.Domain.Core\RabbitMQ.Domain.Core.csproj", "{F499BEE4-1DBD-4D69-AF1B-1F69C63F1BD7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F499BEE4-1DBD-4D69-AF1B-1F69C63F1BD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F499BEE4-1DBD-4D69-AF1B-1F69C63F1BD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F499BEE4-1DBD-4D69-AF1B-1F69C63F1BD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F499BEE4-1DBD-4D69-AF1B-1F69C63F1BD7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F499BEE4-1DBD-4D69-AF1B-1F69C63F1BD7} = {CC05209B-0E2F-4B20-89DF-208B633628EB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {981EC803-543C-46F1-8950-0A8EF7D10D07}
+	EndGlobalSection
+EndGlobal
